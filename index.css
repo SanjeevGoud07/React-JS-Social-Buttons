@@ -1,0 +1,83 @@
+/* Write your code here. */
+* {
+  /* box-sizing: border-box; */
+  font-family: "roboto";
+}
+body {
+  margin: 0px;
+}
+.container {
+  /* display: flex;
+  /* height: 100vh; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  text-align: center;
+  /* width: 30%; */
+  /* align-items: center; */
+}
+.Con {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.heading {
+  font-size: 60px;
+  color: #ffffff;
+  font-family: bree serif;
+  font-weight: bold;
+}
+.but1 {
+  background-color: #eab308;
+  height: 35px;
+  width: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.but2 {
+  background-color: #ffffff;
+  height: 35px;
+  width: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: #323f4b;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.but3 {
+  background-color: #1d4ed8;
+  height: 35px;
+  width: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+}
+#root {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  /* .heading {
+    color: red;
+  } */
+}
